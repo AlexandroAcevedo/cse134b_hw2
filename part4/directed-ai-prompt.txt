@@ -1,0 +1,15 @@
+Model: GPT-5.6 Sol
+Reasoning: Medium
+
+Prompt:
+
+Convert the text below into a complete semantic HTML document. Use HTML only. Do not use CSS or JavaScript.
+Use `<!DOCTYPE html>` and include the standard `<html>`, `<head>`, and `<body>` structure. In the `<head>`, include a character encoding `<meta>` element, a viewport `<meta>` element, and a descriptive `<title>`.
+In the `<body>`, use a `<header>` containing the main `<h1>` title. Put the primary content inside `<main>`. Divide the two topics into separate `<section>` elements, with an `<h2>` heading for each section and `<p>` elements for the paragraph content. Add a `<footer>` at the end with a short statement identifying the page as a food review.
+Choose HTML elements based on their semantic meaning rather than their appearance. Keep the heading hierarchy logical. Do not use unnecessary `<div>` or `<span>` elements. Do not add CSS, JavaScript, or information to the article that was not provided in the original text. No usage of emojis. Ensure it is disability friendly for those with disabilities accessing the site.
+Here is the text:
+Why Carnitas Is One of My Favorite Foods
+What I Like About It
+Carnitas is one of my favorite Mexican dishes because it has a good combination of textures and flavors. The pork can be crispy on the outside while staying tender and juicy inside. I also like that the meat itself has plenty of flavor without needing a complicated list of toppings.
+How I Like to Eat It
+My favorite way to eat carnitas is in tacos with warm corn tortillas. I usually prefer simple toppings so the carnitas stays the main part of the meal. Depending on the restaurant, I might add onion, cilantro, salsa, or a little lime. Carnitas can also work well in burritos or other dishes, but tacos are my first choice.
