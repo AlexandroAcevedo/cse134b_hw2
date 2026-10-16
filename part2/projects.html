@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Alexandro's computer science student portfolio">
+  <title>Projects | Alexandro Portfolio</title>
+  <link rel="icon" href="data:,">
+  <style>
+    portfolio-note { display: block; border: 1px solid; }
+    header, main, footer, section, article, nav { border: 1px solid; }
+  </style>
+  <script>
+    class HelloConsole extends HTMLElement {
+      connectedCallback() { console.log("Hello World!"); }
+    }
+    customElements.define("hello-console", HelloConsole);
+  </script>
+</head>
+<body>
+<header><h1>Projects</h1><nav aria-label="Main navigation">
+  <a href="index.html">Home</a> |
+  <a href="about.html">About</a> |
+  <a href="projects.html">Projects</a> |
+  <a href="experience.html">Experience</a> |
+  <a href="contact.html">Contact</a>
+</nav></header>
+<main>
+  <section>
+    <h2>Selected Work</h2>
+    <article>
+      <h3>Web Analytics Project</h3>
+      <p>Built a web analytics system that collected site activity and presented information through administrative reports.</p>
+    </article>
+    <article>
+      <h3>Discord Utility Bot</h3>
+      <p>Developed a Python bot with persistent data and commands for community activities and reward tracking.</p>
+    </article>
+    <article>
+      <h3>Systems Programming Exercises</h3>
+      <p>Used debugging tools and low-level programming concepts to inspect program behavior and work with assembly.</p>
+    </article>
+  </section>
+  <section>
+    <h2>Project Priorities</h2>
+    <ol>
+      <li>Understand the problem.</li>
+      <li>Build a working solution.</li>
+      <li>Test the result.</li>
+      <li>Improve usability and maintainability.</li>
+    </ol>
+  </section>
+</main>
+<footer>
+  <p>Alexandro's CSE 134B portfolio. <a href="experiments.html">HTML experiments</a></p>
+</footer>
+<hello-console></hello-console>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML Experiments | Alexandro Portfolio</title>
+  <link rel="icon" href="data:,">
+  <style>
+    header, main, footer, section { border: 1px solid; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>HTML Experiments</h1>
+  <nav><a href="index.html">Return Home</a></nav>
+</header>
+<main>
+  <section>
+    <h2>Audio</h2>
+    <audio controls>
+      <source src="my-carnival.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+  <section>
+    <h2>Video</h2>
+    <video controls width="320" height="180">
+      <source src="sphealSPIN.mp4" type="video/mp4">
+      Your browser does not support the video element.
+    </video>
+  </section>
+  <section>
+    <h2>Canvas</h2>
+    <canvas id="demo-canvas" width="300" height="100">Canvas demonstration area.</canvas>
+    <script>
+      const canvas = document.getElementById("demo-canvas");
+      const ctx = canvas.getContext("2d");
+      ctx.strokeRect(10, 10, 280, 80);
+      ctx.fillText("CSE 134B Canvas Demo", 75, 55);
+    </script>
+  </section>
+  <section>
+    <h2>Template</h2>
+    <template id="project-template">
+      <article><h3>Future Project</h3><p>Reusable project content.</p></article>
+    </template>
+    <p>The template above is intentionally stored in the document without scripting it into the page.</p>
+  </section>
+  <section>
+    <h2>MathML Extra Credit</h2>
+    <p>Einstein's mass-energy equivalence:</p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>E</mi><mo>=</mo><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup>
+    </math>
+    <p>MathML was part of web standards for years, but developers could not rely on it because browser support was inconsistent, especially across major browser engines. As native MathML support became more broadly available across modern browsers, authors could use it with much less risk that the mathematical notation would fail or require a fallback.</p>
+  </section>
+
+  <section>
+    <h2>Inline SVG</h2>
+    <svg width="220" height="100" viewBox="0 0 220 100" role="img" aria-label="Simple portfolio code diagram">
+      <rect x="5" y="5" width="210" height="90" fill="none" stroke="black"></rect>
+      <text x="110" y="55" text-anchor="middle">Semantic HTML</text>
+    </svg>
+  </section>
+  <section>
+    <h2>Inline Frame</h2>
+    <iframe src="about.html" title="Preview of the About page" width="400" height="200"></iframe>
+  </section>
+
+</main>
+<footer><p>Alexandro's CSE 134B HTML experiments.</p></footer>
+</body>
+</html>

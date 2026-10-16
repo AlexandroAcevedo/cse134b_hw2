@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Alexandro's computer science student portfolio">
+  <title>About | Alexandro Portfolio</title>
+  <link rel="icon" href="data:,">
+  <style>
+    portfolio-note { display: block; border: 1px solid; }
+    header, main, footer, section, article, nav { border: 1px solid; }
+  </style>
+  <script>
+    class HelloConsole extends HTMLElement {
+      connectedCallback() { console.log("Hello World!"); }
+    }
+    customElements.define("hello-console", HelloConsole);
+  </script>
+</head>
+<body>
+<header><h1>About Me</h1><nav aria-label="Main navigation">
+  <a href="index.html">Home</a> |
+  <a href="about.html">About</a> |
+  <a href="projects.html">Projects</a> |
+  <a href="experience.html">Experience</a> |
+  <a href="contact.html">Contact</a>
+</nav></header>
+<main>
+  <section>
+    <h2>Background</h2>
+    <p>I am a computer science student interested in web development, software engineering, and building useful technical projects.</p>
+    <picture>
+      <source media="(min-width: 900px)" srcset="profile-placeholder.svg">
+      <img src="profile-placeholder.svg" alt="Simple placeholder graphic representing Alexandro's portfolio profile" width="240" height="160">
+    </picture>
+  </section>
+  <section>
+    <h2>Interests</h2>
+    <ul>
+      <li>Web development</li>
+      <li>Software tools and automation</li>
+      <li>Systems and debugging</li>
+    </ul>
+    <p>I like projects where I can move from an idea to a working implementation.<br>That process helps me understand both design and engineering decisions.</p>
+  </section>
+  <section>
+    <h2>What I Value</h2>
+    <p><i>Readable code</i>, <strong>clear structure</strong>, and testing are important parts of how I approach development.</p>
+    <div><span>Student</span> · <span>Developer</span> · <span>Problem Solver</span></div>
+  </section>
+</main>
+<footer>
+  <p>Alexandro's CSE 134B portfolio. <a href="experiments.html">HTML experiments</a></p>
+</footer>
+<hello-console></hello-console>
+</body>
+</html>

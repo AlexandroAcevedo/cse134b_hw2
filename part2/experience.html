@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Alexandro's computer science student portfolio">
+  <title>Experience | Alexandro Portfolio</title>
+  <link rel="icon" href="data:,">
+  <style>
+    portfolio-note { display: block; border: 1px solid; }
+    header, main, footer, section, article, nav { border: 1px solid; }
+  </style>
+  <script>
+    class HelloConsole extends HTMLElement {
+      connectedCallback() { console.log("Hello World!"); }
+    }
+    customElements.define("hello-console", HelloConsole);
+  </script>
+</head>
+<body>
+<header><h1>Experience</h1><nav aria-label="Main navigation">
+  <a href="index.html">Home</a> |
+  <a href="about.html">About</a> |
+  <a href="projects.html">Projects</a> |
+  <a href="experience.html">Experience</a> |
+  <a href="contact.html">Contact</a>
+</nav></header>
+<main>
+  <section>
+    <h2>Technical Experience</h2>
+    <article>
+      <h3>Web Development</h3>
+      <p>Experience with semantic HTML, web hosting, server configuration, backend development, and databases.</p>
+    </article>
+    <article>
+      <h3>Programming</h3>
+      <p>Experience using Python and other programming tools for coursework and personal projects.</p>
+    </article>
+  </section>
+  <section>
+    <h2>Current Learning</h2>
+    <p>This portfolio is being developed progressively: first the semantic structure, then later presentation and interaction.</p>
+    <noscript><p>JavaScript is disabled. This HW2 site is intentionally designed to work primarily without scripting.</p></noscript>
+  </section>
+</main>
+<footer>
+  <p>Alexandro's CSE 134B portfolio. <a href="experiments.html">HTML experiments</a></p>
+</footer>
+<hello-console></hello-console>
+</body>
+</html>

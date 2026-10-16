@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="160" viewBox="0 0 240 160">
+  <rect x="1" y="1" width="238" height="158" fill="white" stroke="black"/>
+  <circle cx="120" cy="55" r="28" fill="none" stroke="black"/>
+  <path d="M65 145 Q120 85 175 145" fill="none" stroke="black" stroke-width="2"/>
+  <text x="120" y="155" text-anchor="middle" font-size="12">Portfolio Profile</text>
+</svg>

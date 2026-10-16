@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Alexandro's computer science student portfolio">
+  <title>Home | Alexandro Portfolio</title>
+  <link rel="icon" href="data:,">
+  <style>
+    portfolio-note { display: block; border: 1px solid; }
+    header, main, footer, section, article, nav { border: 1px solid; }
+  </style>
+  <script>
+    class HelloConsole extends HTMLElement {
+      connectedCallback() { console.log("Hello World!"); }
+    }
+    customElements.define("hello-console", HelloConsole);
+  </script>
+</head>
+<body>
+<header>
+  <h1>Alexandro's Portfolio</h1>
+  <nav aria-label="Main navigation">
+  <a href="index.html">Home</a> |
+  <a href="about.html">About</a> |
+  <a href="projects.html">Projects</a> |
+  <a href="experience.html">Experience</a> |
+  <a href="contact.html">Contact</a>
+</nav>
+</header>
+<main>
+  <section>
+    <h2>Computer Science Student &amp; Developer</h2>
+    <p>Welcome to my portfolio. I enjoy building web projects, programming tools, and systems that solve practical problems.</p>
+    <portfolio-note>
+      <p><strong>Current focus:</strong> learning standards-based <em>web development</em> and creating projects with clear, semantic structure.</p>
+    </portfolio-note>
+  </section>
+  <section>
+    <h2>Featured Work</h2>
+    <article>
+      <h3>Web Analytics Platform</h3>
+      <p>A multi-part web project involving hosting, analytics collection, reports, and administration tools.</p>
+      <p><b>Skills:</b> HTML, server configuration, databases, and backend development.</p>
+      <a href="projects.html">Read about my projects</a>
+    </article>
+  </section>
+  <section>
+    <h2>Progress</h2>
+    <label for="degree-progress">Portfolio build progress:</label>
+    <progress id="degree-progress" value="2" max="4">50%</progress>
+  </section>
+</main>
+<footer>
+  <p>Alexandro's CSE 134B portfolio. <a href="experiments.html">HTML experiments</a></p>
+</footer>
+<hello-console></hello-console>
+</body>
+</html>
